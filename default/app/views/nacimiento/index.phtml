@@ -1,0 +1,25 @@
+<?php Tag::css('materialize'); ?>
+<?php echo Html::includeCss(); ?>
+<?php Tag::js('materialize'); ?>
+<?php 
+echo Form::open();
+echo Form::text('nombre',"placeholder='Nombre'");
+echo Form::pass('password',"placeholder='Contaseña'");
+echo Form::close();
+
+?>
+
+      <button  class="btn waves-effect waves-light" type="submit" name="action">Enviar
+  </button>
+        
+<form action="#">
+    <p>
+      <input  name="group1" type="radio" id="test1" />
+      <label for="test1">Masculino</label>
+    </p>
+    <p>
+      <input name="group1" type="radio" id="test2" />
+      <label for="test2">Femenino</label>
+    </p>
+  </form>
+
